@@ -95,3 +95,7 @@ Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism). 
 ![Blogster](/images/blogster.png)
 
 ![Jelly Fish](/images/jelly-fish.jpg)
+
+![Jelly Fishy](https://applegate-paul.mo.cloudinary.net/zoom/jelly-fish.jpg)
+
+
