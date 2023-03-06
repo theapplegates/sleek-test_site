@@ -16,7 +16,22 @@ import DarkModeToggle from "./DarkModeToggle.astro";
         <li><HeaderLink href="/">Home</HeaderLink></li>
         <li><HeaderLink href="/blog">Blog</HeaderLink></li>
         <li><HeaderLink href="/projects">Projects</HeaderLink></li>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+        <script type="text/javascript">
+          algoliasearchNetlify({
+            appId: '0UO6MY6KCT',
+            apiKey: '46103ee67a40c35263ae477622dffb45',
+            siteId: '0df0372d-fac5-4317-8764-a5d32346df70',
+            branch: 'main',
+            selector: 'div#search',
+          });
+        </script>
+        <li><HeaderLink><div id="search"></div></HeaderLink></li>
+
+
       </ul>
+
     </section>
   </nav>
   <div
